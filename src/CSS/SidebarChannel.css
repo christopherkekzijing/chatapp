@@ -1,0 +1,90 @@
+.sidebarChannel:hover > h4 {
+  color: white;
+}
+.sidebarChannel > h4 {
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebarChannel {
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebarChannel:hover {
+  background-color: #40464b;
+}
+.active {
+  background-color: #363b3f;
+  color: white;
+}
+
+.sidebar_addMemberIcon {
+  margin-right: 12px;
+  cursor: pointer;
+}
+.sidebar_addMemberIcon:hover {
+  color: white;
+}
+
+.sidebarChannel_hash {
+  font-size: 30px;
+  padding: 8px;
+}
+
+.sidebar_voice,
+.sidebar_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+  border-top: 1px solid gray;
+}
+
+.sidebar_voiceInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar_voiceInfo > p {
+  font-size: smaller;
+}
+
+.sidebar_voiceInfo > h3 {
+  color: #4fb185;
+}
+
+.sidebar_voiceIcon {
+  color: #4fb185;
+}
+
+.sidebar_voiceIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.sidebar_profileInfo {
+  flex: 1;
+  padding: 10px;
+}
+
+.sidebar_profileInfo > h3 {
+  color: white;
+}
+
+.sidebar_profileInfo > p {
+  font-size: smaller;
+}
+
+.sidebar_profileIcons > .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .sidebar_addMemberIcon {
+    padding-right: 10px;
+  }
+}
